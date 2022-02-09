@@ -367,7 +367,6 @@ upload: ${JSON.parse(stdout).upload} Mbps`)
         case 'help':
         case '?':
         case 'm':
-api = await fetchJson(`https://api.lolhuman.xyz/api/countdown/02/04/2022?apikey=${lol}`)
           conn.sendMessage(from, {
             text: `»▬▬«•●•»▬▬«
 Hai *${pushname}* 🍵
@@ -375,10 +374,6 @@ ${time} WIB
 uptime: *${format(process.uptime())}*
 _bot ini menggunakan_
 _baileys-md_
-
-»▬▬«•●•»▬▬«
-countdown ramadhan 2022
-*${api.result}*
 
 »▬▬«•●•»▬▬«
 .speedtest
