@@ -374,6 +374,9 @@ ${time} WIB
 uptime: *${format(process.uptime())}*
 _bot ini menggunakan_
 _baileys-md_
+~Rest Api's:~
+https://c50a-2a01-4f8-151-24e7-face-48d-4525-1.ngrok.io/api
+gua coding sendiri.
 
 »▬▬«•●•»▬▬«
 .speedtest
