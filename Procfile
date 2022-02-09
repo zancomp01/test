@@ -1,1 +1,1 @@
-worker: node main.js
+worker: npm i forever && npx forever start main.js
