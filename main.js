@@ -8,7 +8,7 @@ const {
   useSingleFileAuthState,
   downloadContentFromMessage,
   DisconnectReason
-} = require('@danielteodoro/baileys-md')
+} = require('@adiwajshing/baileys')
 const pino = require('pino')
 const {
   state,
